@@ -1,1 +1,1 @@
-# Run-Calculator
+This is a simple calculator tool I made with HTML, CSS, and JavaScript. The user enters a running pace per mile in minutes and seconds, then the program displays total run times for the 5k, 10k, half marathon and full marathon at that pace.
