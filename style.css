@@ -1,0 +1,34 @@
+body {
+    font-size: 20px;
+    background-color: rgb(243, 229, 148);
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-left: 3rem;
+}
+
+h1 {
+    font-weight: bold;
+    color: rgb(71, 10, 10);
+}
+
+#error {
+    display: none;
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+    font-size: 1.5rem;
+}
+
+#dist {
+    font-weight: bold;
+    color: green;
+    font-size: 1.5rem;
+}
+
+#times {
+    display: none;
+}

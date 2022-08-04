@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Run calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>Sukato's Running Calculator</h1>
+    <br>
+    <h2>Enter your projected running pace in minutes and seconds per mile:</h2>
+    <br>
+    <h3>Minutes: <input type="text" id="runmin" name="minutepace"></h3>
+    <h3>Seconds: <input type="text" id="runsec" name="secondspace"></h3>
+    <br>
+    <button type='button' id="submit" onclick="calculate()">Calculate</button>
+    <div id='error'>
+        <h3>Invalid entry!</h3>
+    </div>
+    
+    <div id="times">
+    <h4>Your running time for the <span id='dist'>5k</span> would be: <span id='fivekhour'>0</span> hour(s), <span id="fivekmin"></span> minutes and <span id="fiveksec"></span> seconds.</h4>
+    <h4>Your running time for the <span id='dist'>10k</span> would be: <span id='tenkhour'>0</span> hour(s), <span id="tenkmin"></span> minutes and <span id="tenksec"></span> seconds.</h4>
+    <h4>Your running time for the <span id='dist'>half marathon</span> would be: <span id='halfhour'>0</span> hour(s), <span id="halfmin"></span> minutes and <span id="halfsec"></span> seconds.</h4>
+    <h4>Your running time for the <span id='dist'>marathon</span> would be: <span id='fullhour'>0</span> hour(s), <span id="fullmin"></span> minutes and <span id="fullsec"></span> seconds.</h4>
+    </div>
+
+</body>
+
+
+
+</html>
